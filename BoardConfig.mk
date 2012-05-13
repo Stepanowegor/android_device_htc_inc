@@ -132,6 +132,8 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/htc/common
 
+# kernel
+BUILD_KERNEL := FALSE
 TARGET_KERNEL_CONFIG    := evervolv_incrediblec_defconfig
 TARGET_KERNEL_SOURCE    := kernel/htc/qsd8k
 TARGET_PREBUILT_KERNEL  := device/htc/inc/prebuilt/root/kernel
