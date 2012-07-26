@@ -122,7 +122,8 @@ $(call inherit-product-if-exists, vendor/htc/inc/inc-vendor.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-
 PRODUCT_NAME := full_inc
 PRODUCT_DEVICE := inc
-PRODUCT_MODEL := Full Android on Inc
+PRODUCT_BRAND := verizon_wwe
+PRODUCT_MANUFACTURER := HTC
+PRODUCT_MODEL := HTC Droid Incredible
