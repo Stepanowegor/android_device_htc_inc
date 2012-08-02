@@ -8,7 +8,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 PRODUCT_NAME := cm_inc
 PRODUCT_DEVICE := inc
 
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=verizon_wwe/inc/inc/inc:2.3.4/GRJ22/185897.2:user/release-keys PRIVATE_BUILD_DESC="4.08.605.2 CL185897 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=verizon_wwe/inc/inc/inc:4.1.1/JR003C/228551:user/release-keys PRIVATE_BUILD_DESC="inc-user 4.1.1/JR003C/228551 release-keys"
 
 # Optional CM packages
 PRODUCT_PACKAGES += \
