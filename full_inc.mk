@@ -104,8 +104,7 @@ endif
 PRODUCT_PACKAGES += \
     gps.inc \
     lights.inc \
-    sensors.inc \
-    camera.qsd8k
+    sensors.inc
 
 # USB
 ADDITIONAL_DEFAULT_PROPERTIES += \
@@ -121,6 +120,7 @@ $(call inherit-product, device/htc/qsd8k-common/qsd8k.mk)
 $(call inherit-product-if-exists, vendor/htc/inc/inc-vendor.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+
 
 PRODUCT_NAME := full_inc
 PRODUCT_DEVICE := inc
