@@ -98,7 +98,7 @@ endif
 #
 # Sensors
 PRODUCT_PACKAGES += \
-#    gps.inc \
+    gps.inc \
     lights.inc \
     sensors.inc
 
