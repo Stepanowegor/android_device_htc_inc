@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<apns version="7">
+    <apn carrier="Verizon"
+        mcc="310"
+        mnc="012"
+        apn="internet"
+        mmsc="http://mms.vtext.com/servlets/mms"
+    />
+</apns>

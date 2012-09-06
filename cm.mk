@@ -1,9 +1,6 @@
 # Inherit CM device configuration for inc.
 $(call inherit-product, device/htc/inc/full_inc.mk)
 
-# CDMA device
-$(call inherit-product, vendor/cm/config/cdma.mk)
-
 # Inherit some common cm stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
