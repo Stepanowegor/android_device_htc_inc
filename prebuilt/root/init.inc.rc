@@ -134,6 +134,9 @@ on boot
     chmod 0666 /dev/msm_camera/config0
     chmod 0666 /dev/msm_camera/control0
     chmod 0666 /dev/msm_camera/frame0
+    
+    # Test fix for video playback
+    chmod 0666 /dev/msm_rotator
 
     # framebuffer permission for copybit
     chmod 0666 /dev/graphics/fb0
