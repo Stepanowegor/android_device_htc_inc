@@ -6,5 +6,6 @@
         mnc="012"
         apn="internet"
         mmsc="http://mms.vtext.com/servlets/mms"
+        enabled="1"
     />
 </apns>
