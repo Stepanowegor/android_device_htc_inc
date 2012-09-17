@@ -121,6 +121,9 @@ $(call inherit-product-if-exists, vendor/htc/inc/inc-vendor.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+# We need our AOKP SHIT!!!!!
+$(call inherit-product-if-exists, vendor/aokp/configs/common.mk)
+
 
 PRODUCT_NAME := full_inc
 PRODUCT_DEVICE := inc
